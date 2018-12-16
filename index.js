@@ -35,7 +35,7 @@ function sendTaskToMaildrop(taskAndNotes) {
     taskAndNotes = taskAndNotes.join(' ');
     const emailData = createEmailData(taskAndNotes, config);
     mailgun.messages().send(emailData, function (error, body) {
-        process.stdout.write('Task sent to OmniFocus maildrop.\n'.green);
+        console.log('Task sent to OmniFocus maildrop.'.green);
     });
 
 }

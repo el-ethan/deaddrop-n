@@ -1,14 +1,22 @@
 {
-  "name": "deaddrop",
-  "version": "1.0.0",
-  "description": "Add tasks to OmniFocus with maildrop",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^23.6.0"
-  }
+    "name": "deaddrop",
+    "version": "1.0.0",
+    "description": "Add tasks to OmniFocus with maildrop",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "bin": {
+        "ddd": "./index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^23.6.0"
+    },
+    "dependencies": {
+        "colors": "^1.3.3",
+        "commander": "^2.19.0",
+        "mailgun-js": "^0.22.0"
+    }
 }

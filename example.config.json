@@ -1,0 +1,7 @@
+{
+    "apiKey": "my-mailgun-api-key",
+    "domain": "sandbox...somethingsomething.mailgun.org",
+    "senderName": "deaddrop",
+    "OFMaildropEmail": "my_username@sync.omnigroup.com",
+    "notesDelimiter": ",,"
+}
